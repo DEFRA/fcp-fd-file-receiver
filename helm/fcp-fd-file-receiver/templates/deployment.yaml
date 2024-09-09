@@ -1,0 +1,8 @@
+{{- include "ffc-helm-library.deployment" (list . "fcp-fd-file-receiver.deployment") -}}
+{{- define "fcp-fd-file-receiver.deployment" -}}
+spec:
+  template:
+    spec:
+      containers:
+      - {{ include "ffc-helm-library.container" (list . "fcp-fd-file-receiver.container") }}
+{{- end -}}
