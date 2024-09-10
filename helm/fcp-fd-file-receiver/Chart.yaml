@@ -1,6 +1,6 @@
 apiVersion: v2
-description: description-of-project-goes-here
-name: ffc-template-node
+description: File receiver microservice for the Single Front Door
+name: fcp-fd-file-receiver
 # this version is automatically updated in the build pipeline
 version: 1.0.0
 dependencies:
