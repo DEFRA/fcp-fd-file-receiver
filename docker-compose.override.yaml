@@ -8,8 +8,8 @@ services:
     image: fcp-fd-file-receiver-development
     container_name: fcp-fd-file-receiver-development
     ports:
-      - "3020:3020"
-      - "9020:9229"
+      - "3038:3038"
+      - "9038:9229"
     volumes:
       - ./app:/home/node/app
       - ./package.json:/home/node/package.json
